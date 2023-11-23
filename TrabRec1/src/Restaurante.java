@@ -99,7 +99,7 @@ public class Restaurante {
     }
 
     private static void exibirMenu() {
-        System.out.println("\nBem vindo ao restaurante japônes sem Tempura");
+        System.out.println("\nBem vindo ao restaurante japônes sem Tempurá");
         System.out.println("1. Fazer Pedido");
         System.out.println("2. Sair");
         System.out.print("Escolha a opção desejada: ");
