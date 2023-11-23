@@ -56,6 +56,9 @@ public class Restaurante {
 
     private static void exibirCardapio(Cardapio cardapio) {
         System.out.println("\nCardápio:");
+        Produto produto = new Produto("Sushi", 12.50);
+        System.out.println(produto.tipo());
+
         for (int i = 1; i <= cardapio.escolherNumeroItens(); i++) {
             ProdutoAbstract item = cardapio.escolherItem(i);
             System.out.println(i + ". " + item.nomeProduto() + " - R$" + item.valorProduto());
