@@ -3,7 +3,7 @@ public class Produto extends ProdutoAbstract {
         super(nome, preco);
     }
     @Override
-    public String getTipo() {
+    public String tipo() {
         return "Produtos";
     }
 }
