@@ -16,5 +16,5 @@ public abstract class ProdutoAbstract {
         return preco;
     }
 
-    public abstract String getTipo();
+    public abstract String tipo();
 }
